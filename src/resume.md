@@ -4,15 +4,15 @@
 
 \[ 📱 (461) 235 4185 ] -
 \[ 📍 Salvatierra, Guanajuato, México ] -
-\[ ✉️ [ricardogj08@riseup.net](mailto:ricardogj08@riseup.net) ] -
-\[ 🔗 [Repositorio](https://notabug.org/ricardogj08) ] -
-\[ 🔗 [Github (@ricardogj08)](https://github.com/ricardogj08) ]
+\[ ✉️ [ricardogj08@riseup.net](mailto:ricardogj08@riseup.net) ]
 
-\[ [WhatsApp (461 235 4175)](https://wa.me/524612354175) ] -
-\[ [LinkedIn (@ricardogj08)](https://www.linkedin.com/in/ricardogj08) ] -
-\[ [Telegram (@ricardogj08)](https://t.me/ricardogj08) ] -
-\[ [Facebook (@ricardogj08)](https://www.facebook.com/ricardogj08) ] -
-\[ [Instagram (@ricardogj08)](https://www.instagram.com/ricardogj08) ]
+\[ 🔗 [Repositorio](https://notabug.org/ricardogj08) ] -
+\[ 🔗 [Github](https://github.com/ricardogj08) ] -
+\[ 🔗 [WhatsApp](https://wa.me/524612354175) ] -
+\[ 🔗 [LinkedIn](https://www.linkedin.com/in/ricardogj08) ] -
+\[ 🔗 [Telegram](https://t.me/ricardogj08) ] -
+\[ 🔗 [Facebook](https://www.facebook.com/ricardogj08) ] -
+\[ 🔗 [Instagram](https://www.instagram.com/ricardogj08) ]
 
 ## DESARROLLADOR WEB
 
@@ -67,7 +67,7 @@ Ingeniería en Sistemas Computacionales
 
 ## CURSOS
 
-### [EDteam](https://ed.team/u/ricardogj08/certificados)
+### 🔗 [EDteam](https://ed.team/u/ricardogj08/certificados)
 
 * CSS desde cero (2024) - Junio 2024
 * Tailwind CSS desde Cero - Noviembre 2022
@@ -80,10 +80,10 @@ Ingeniería en Sistemas Computacionales
 
 ## REFERENCIAS
 
-[Francisco Solís Martínez](https://mx.linkedin.com/in/francisco-js) \|
-[franciscosolism08@gmail.com](mailto:franciscosolism08@gmail.com) \|
-(462) 152 6443
+🔗 [Francisco Solís Martínez](https://mx.linkedin.com/in/francisco-js) \|
+✉️ [franciscosolism08@gmail.com](mailto:franciscosolism08@gmail.com) \|
+📱 (462) 152 6443
 
-[Israel Mézquita Torres](https://mx.linkedin.com/in/israelmt) \|
-[israel@genotipo.com](mailto:israel@genotipo.com) \|
-(998) 118 8773
+🔗 [Israel Mézquita Torres](https://mx.linkedin.com/in/israelmt) \|
+✉️ [israel@genotipo.com](mailto:israel@genotipo.com) \|
+📱 (998) 118 8773
