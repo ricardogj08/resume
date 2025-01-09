@@ -2,7 +2,7 @@
 
 # RICARDO GARCÍA JIMÉNEZ
 
-\[ 📱 (461) 235 4185 ] -
+\[ 📱 (461) 235 4175 ] -
 \[ 📍 Salvatierra, Guanajuato, México ] -
 \[ ✉️ [ricardogj08@riseup.net](mailto:ricardogj08@riseup.net) ] -
 \[ 🔗 [CV](https://ricardogj08.github.io/resume/) ]
