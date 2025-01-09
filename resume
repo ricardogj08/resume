@@ -1,0 +1,46 @@
+#!/bin/bash
+
+markdown2html() {
+  smu "$1" 2>/dev/null
+}
+
+template() { cat <<EOF
+<!doctype html>
+<html lang="${RESUME_LANG:-es}">
+<head>
+  <meta charset="uft-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="${RESUME_CSS:-https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css}">
+
+  <style>
+    .markdown-body {
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 45px;
+    }
+
+    @media (max-width: 767px) {
+      .markdown-body {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body class="markdown-body">
+  $(markdown2html src/resume.md)
+</body>
+</html>
+EOF
+}
+
+main() {
+  mkdir -p docs
+
+  . resume.cfg
+
+  template > docs/index.html
+}
+
+main
