@@ -4,7 +4,8 @@
 
 \[ 📱 (461) 235 4185 ] -
 \[ 📍 Salvatierra, Guanajuato, México ] -
-\[ ✉️ [ricardogj08@riseup.net](mailto:ricardogj08@riseup.net) ]
+\[ ✉️ [ricardogj08@riseup.net](mailto:ricardogj08@riseup.net) ] -
+\[ 🔗 [CV](https://ricardogj08.github.io/resume/) ]
 
 \[ 🔗 [Repositorio](https://notabug.org/ricardogj08) ] -
 \[ 🔗 [Github](https://github.com/ricardogj08) ] -
