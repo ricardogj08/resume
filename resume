@@ -10,6 +10,7 @@ template() { cat <<EOF
 <head>
   <meta charset="uft-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${RESUME_TITLE:-Resume}</title>
   <link rel="stylesheet" href="${RESUME_CSS:-https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css}">
 
   <style>
