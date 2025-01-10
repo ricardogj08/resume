@@ -42,6 +42,16 @@ main() {
   . resume.cfg
 
   template > docs/index.html
+
+  cd docs
+
+  wkhtmltopdf \
+    --margin-top 0 \
+    --margin-right 0 \
+    --margin-bottom 0 \
+    --margin-left 0 \
+    --enable-local-file-access \
+    index.html cv.pdf
 }
 
 main
