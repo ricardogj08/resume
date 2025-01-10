@@ -1,9 +1,17 @@
 # resume
 
+## Instalación
+
+```
+cd resume
+sudo cp resume /usr/local/bin
+mv resume.cfg.def resume.cfg
+```
+
 ## Uso
 
 ```
-./resume
+resume
 ```
 
 ## Referencias
