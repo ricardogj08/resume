@@ -1,5 +1,12 @@
 # resume
 
+Un generador simple de Curriculum vitae (cv) escrito en POSIX `sh`.
+
+## Dependencias
+
+* [smu - a Simple Markup Language.](https://github.com/karlb/smu)
+* [wkhtmltopdf - Convert HTML to PDF using Webkit (QtWebKit).](https://github.com/wkhtmltopdf/wkhtmltopdf)
+
 ## Instalación
 
 ```
