@@ -1,9 +1,17 @@
-#!/bin/bash
+#!/bin/sh
 
+# Imprime mensajes de errores.
+error() {
+  printf '%s.\n' "$1" >&2
+  exit 1
+}
+
+# Convierte un archivo Markdown a HTML.
 markdown2html() {
   smu "$1" 2>/dev/null
 }
 
+# Plantilla base para la página del cv.
 template() { cat <<EOF
 <!DOCTYPE html>
 <html lang="${RESUME_LANG:-es}">
@@ -36,22 +44,35 @@ template() { cat <<EOF
 EOF
 }
 
-main() {
-  mkdir -p src docs
-
-  . resume.cfg
-
-  template > docs/index.html
-
-  cd docs
-
+# Convierte un archivo HTML a PDF.
+html2pdf() {
   wkhtmltopdf \
     --margin-top 0 \
     --margin-right 0 \
     --margin-bottom 0 \
     --margin-left 0 \
     --enable-local-file-access \
-    index.html cv.pdf
+    "$1" "$2"
+}
+
+main() {
+  command -v smu >/dev/null ||
+    error "'smu' is not installed"
+
+  command -v wkhtmltopdf >/dev/null ||
+    error "'wkhtmltopdf' is not installed"
+
+  mkdir -p src docs ||
+    error "Curriculum directories cannot be created"
+
+  # shellcheck source=/dev/null
+  [ -r resume.cfg ] && . ./resume.cfg
+
+  template > docs/index.html
+
+  cd docs || error "Can't access the 'docs' directory"
+
+  html2pdf "index.html" "cv.pdf"
 }
 
 main
