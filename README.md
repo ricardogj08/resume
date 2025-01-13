@@ -14,7 +14,6 @@ Un generador simple de currículum vítae (cv) escrito en POSIX `sh`.
 ```
 cd resume
 sudo cp resume /usr/local/bin
-mv resume.cfg.def resume.cfg
 ```
 
 ## Uso
