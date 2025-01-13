@@ -19,7 +19,7 @@
 #
 
 RESUME_VERSION=1.0
-RESUME_REPO=https://github.com/ricardogj08/resume
+RESUME_REPO=https://notabug.org/ricardogj08/resume
 
 # Imprime mensajes de errores.
 error() {
@@ -39,6 +39,7 @@ template() { cat <<EOF
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="resume ${RESUME_VERSION}; ${RESUME_REPO}">
   <title>${RESUME_TITLE:-Resume}</title>
   <link rel="stylesheet" href="${RESUME_CSS:-https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css}">
 
