@@ -19,7 +19,26 @@ mv resume.cfg.def resume.cfg
 
 ```
 resume -b
+cat <<EOF > src/resume.md
+# Foo
+
+Hola mundo!
+EOF
+resume -b
 ```
+
+## Flujo de trabajo
+
+```
+[micv]
+  |-[docs]
+  |-[src]
+  |-resume.cfg
+```
+
+* `docs`: contiene tu currículum en HTML y PDF después de ejecutar `resume -b`.
+* `src`: dentro de este directorio escribe en el archivo `resume.md` tu currículum en Markdown.
+* `resume.cfg`: contiene variables de configuración para tu currículum. Ver el archivo `resume.cfg.def`.
 
 ## Referencias
 
