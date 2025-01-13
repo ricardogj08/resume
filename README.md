@@ -18,6 +18,8 @@ mv resume.cfg.def resume.cfg
 ## Uso
 
 ```
+mkdir micv
+cd micv
 resume -b
 cat <<EOF > src/resume.md
 # Foo
