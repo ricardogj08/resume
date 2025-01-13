@@ -105,7 +105,7 @@ main() {
 
   # Configuración por defecto.
   : "${RESUME_LANG:=es}"
-  : "${RESUME_TITLE:=Resume}"
+  : "${RESUME_TITLE:=Your name}"
   : "${RESUME_CSS:=https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css}"
 
   template > docs/index.html

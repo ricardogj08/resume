@@ -2,6 +2,8 @@
 
 Un generador simple de currículum vítae (cv) escrito en POSIX `sh`.
 
+[Ejemplo.](https://notabug.org/ricardogj08/cv)
+
 ## Dependencias
 
 * [smu - a Simple Markup Language.](https://github.com/karlb/smu)
