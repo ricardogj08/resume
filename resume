@@ -18,6 +18,9 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
+RESUME_VERSION=1.0
+RESUME_REPO=https://github.com/ricardogj08/resume
+
 # Imprime mensajes de errores.
 error() {
   printf '%s.\n' "$1" >&2
@@ -73,6 +76,19 @@ html2pdf() {
     "$1" "$2"
 }
 
+# Imprime un mensaje de ayuda.
+shelp() { printf '%s' "\
+resume ${RESUME_VERSION} - A simple resume generator written in POSIX sh.
+
+Synopsis:
+  resume [OPTION]
+
+Options:
+  -b - Build resume.
+"
+exit 0
+}
+
 main() {
   command -v smu >/dev/null ||
     error "'smu' is not installed"
@@ -93,4 +109,4 @@ main() {
   html2pdf "index.html" "cv.pdf"
 }
 
-main
+[ "$1" = -b ] || shelp && main

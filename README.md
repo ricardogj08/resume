@@ -18,7 +18,7 @@ mv resume.cfg.def resume.cfg
 ## Uso
 
 ```
-resume
+resume -b
 ```
 
 ## Referencias
