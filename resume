@@ -35,13 +35,13 @@ markdown2html() {
 # Plantilla base para la página del cv.
 template() { cat <<EOF
 <!DOCTYPE html>
-<html lang="${RESUME_LANG:-es}">
+<html lang="${RESUME_LANG}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="resume ${RESUME_VERSION}; ${RESUME_REPO}">
-  <title>${RESUME_TITLE:-Resume}</title>
-  <link rel="stylesheet" href="${RESUME_CSS:-https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css}">
+  <title>${RESUME_TITLE}</title>
+  <link rel="stylesheet" href="${RESUME_CSS}">
 
   <style>
     .markdown-body {
@@ -103,11 +103,18 @@ main() {
   # shellcheck source=/dev/null
   [ -r resume.cfg ] && . ./resume.cfg
 
+  # Configuración por defecto.
+  : "${RESUME_LANG:=es}"
+  : "${RESUME_TITLE:=Resume}"
+  : "${RESUME_CSS:=https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css}"
+
   template > docs/index.html
 
   cd docs || error "Can't access the 'docs' directory"
 
-  html2pdf "index.html" "cv.pdf"
+  html2pdf \
+    "index.html" \
+    "$(printf '%s' "${RESUME_TITLE}" | tr '[:blank:]' '-').pdf"
 }
 
 [ "$1" = -b ] || shelp && main
