@@ -2,7 +2,7 @@
 
 Un generador simple de currículum vítae (cv) escrito en POSIX `sh`.
 
-[Ejemplo.](https://notabug.org/ricardogj08/cv)
+* [Ejemplo.](https://notabug.org/ricardogj08/cv)
 
 ## Dependencias
 
