@@ -1,6 +1,6 @@
 # resume
 
-Un generador simple de currículum vítae (cv) escrito en POSIX `sh`.
+Un generador simple de currículum vitae (cv) escrito en POSIX `sh`.
 
 * [Ejemplo.](https://notabug.org/ricardogj08/cv)
 
@@ -51,7 +51,7 @@ resume -b
 ## Licencia
 
 ```
-resume -- Un generador simple de currículum vítae escrito en POSIX sh.
+resume -- Un generador simple de currículum vitae escrito en POSIX sh.
 
 Copyright (C) 2024  Ricardo García Jiménez <ricardogj08@riseup.net>
 

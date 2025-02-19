@@ -113,7 +113,7 @@ main() {
   cd docs || error "Can't access the 'docs' directory"
 
   html2pdf \
-    "index.html" \
+    index.html \
     "$(printf '%s' "${RESUME_TITLE}" | tr '[:blank:]' '-').pdf"
 }
 
